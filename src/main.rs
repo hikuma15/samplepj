@@ -17,7 +17,7 @@ fn main() {
 
 
 
-static TERMS: u32 = 2e8 as u32;
+static TERMS: u32 = 2e7 as u32;
 
 pub fn leibniz_f64powf(terms: u32) -> f64 {
     leibniz_common(terms, &|n| (-1f64).powf(n as f64))
